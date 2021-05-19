@@ -1,0 +1,73 @@
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+table {
+  width: 400px;
+}
+th {
+  text-align: left;
+}
+.button {
+  background-color: rgb(23, 151, 255);
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 10px;
+  transition: all ease-in 0.5s;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: rgb(18, 80, 212);
+}
+
+.flex {
+  display: flex;
+}
+
+.v-center {
+  align-items: center;
+}
+
+.p-1 {
+  padding: 10px;
+}
+
+.p-2 {
+  padding: 20px;
+}
+
+.px-1 {
+  padding: 0 10px;
+}
+
+.sm-p-1 {
+  padding: 5px;
+}
+
+.ml-1 {
+  margin: 0 0 0 10px;
+}
+
+.ml-3 {
+  margin: 0 0 0 30px;
+}
+
+.min-w-500 {
+  min-width: 500px;
+}
+
+.blue-txt {
+  color: rgb(23, 151, 255);
+}
+
+.gray-bg {
+  background-color: rgb(233, 233, 233);
+  color: rgb(94, 94, 94);
+}
